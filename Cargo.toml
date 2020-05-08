@@ -34,7 +34,7 @@ sha2 = { version = "0.8", default-features = false }
 hex = "^0.4"
 bincode = "^0.9"
 criterion = "0.3"
-rand = "0.7"
+rand = {version = "0.7.3", git = "https://github.com/akropolisio/rand"}
 
 [[bench]]
 name = "ed25519_benchmarks"
